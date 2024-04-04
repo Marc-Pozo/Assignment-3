@@ -1,6 +1,7 @@
 Marcelino Pozo
 
 Problem 1 Report:
+
     - Efficiency:
         Timing problem 1 it takes around 23-25 seconds to fully run, this is on an i5-13400 with 500000 presents.
         What helped me drop the time from 3-5 minutes to this time was splitting the arraylists into lists of about 1000 and then running 500 of them in a queue.
@@ -16,6 +17,7 @@ Problem 1 Report:
         by little.
 
 Problem 2 Report:
+
     - Efficiency:
         This problem is implemented very efficiently. As I was coding up the solution I tried my hardest to avoid repeat operations if they were unnnecessary. For example I only 
         begin calculates on the top or bottom 5 temps after I get all the data. I also simultaneously flatten the list while grabbing the biggest difference in temp.
